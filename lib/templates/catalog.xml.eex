@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<catalog>
+<%= for book <- @books do %>
+  <%= render("book.xml", book: book) %>
+<% end %>
+</catalog>
